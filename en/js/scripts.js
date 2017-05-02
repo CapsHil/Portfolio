@@ -213,8 +213,8 @@
             maptype: 'ROADMAP',
             markers:[
             {
-            address: "Issy-les-Moulineaux",  /* You can change your address from here */
-            html: "<b>Adresse</b>: <br> Issy-les-Moulineaux, France",   /* You can change display address text from here */
+            address: "New York",  /* You can change your address from here */
+            html: "<b>Address</b>: <br> Area-2, Rose Area, New York, U.S.A.",   /* You can change display address text from here */
             popup: true
             }
             ]
