@@ -169,15 +169,17 @@
             <div class="row">
                 <ul class="portfolio">
                     <li class="filter" data-filter="all">all</li>
-                    <li class="filter" data-filter=".apps">professional</li>
-                    <li class="filter" data-filter=".wordpress">personnal</li>
+                    <li class="filter" data-filter=".professional">professional</li>
+                    <li class="filter" data-filter=".personnal">personnal</li>
+                    <li class="filter" data-filter=".student">student</li>
+                    <li class="filter" data-filter=".non-technical">events</li>
                 </ul>
             </div>
             
             <div class="portfolio-inner">
                 <div class="row">
 
-                    <div class="col-md-4 col-sm-6 portfolio-item mix apps">
+                    <div class="col-md-4 col-sm-6 portfolio-item mix professional">
                         <div class="portfolio-link" data-toggle="modal">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
@@ -190,14 +192,41 @@
                                     bla
                                 </div>
                             </div>
-                            <img src="img/projets/apache.png" class="img-responsive" alt="">
+                            <img src="images/projects/aic.jpg" class="img-responsive" alt="">
                         </div>
                         <div class="portfolio-caption">
-                            <h4>Site web du BDE Apache</h4>
-                            <p class="text-muted">Developpement Web</p>
+                            <h4>AiC</h4>
+                            <p class="text-muted">Android in Cloud project</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item mix wordpress">
+
+                    <div class="col-md-4 col-sm-6 portfolio-item mix personnal">
+                        <div class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    Bla bla bla bla bla bla bla bla bla
+                                    bla bla bla bla bla bla bla bla bla
+                                    bla bla bla bla bla bla bla bla bla
+                                    bla bla bla bla bla bla bla bla bla
+                                    bla bla bla bla bla bla bla bla bla
+                                    bla bla bla bla bla bla bla bla bla
+                                    bla
+                                    bla bla bla bla bla bla bla bla bla
+                                    blabla bla bla bla bla bla bla bla bla
+                                    blabla bla bla bla bla bla bla bla bla
+                                    bla
+
+                                </div>
+                            </div>
+                            <img src="images/projects/halfred.jpg" class="img-responsive" alt="">
+                        </div>
+                        <div class="portfolio-caption">
+                            <h4>Halfred</h4>
+                            <p class="text-muted">Smart system for home automation</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 portfolio-item mix non-technical student">
                         <div class="portfolio-link" data-toggle="modal">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
@@ -210,11 +239,53 @@
                                     bla
                                 </div>
                             </div>
-                            <img src="img/test/roundicons.png" class="img-responsive" alt="">
+                            <img src="images/projects/colloque.png" class="img-responsive" alt="">
                         </div>
                         <div class="portfolio-caption">
-                            <h4>Round Icons</h4>
-                            <p class="text-muted">Graphic Design</p>
+                            <h4>Colloque ESIEA</h4>
+                            <p class="text-muted">Organisation du Colloque ESIEA</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 portfolio-item mix student">
+                        <div class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    Bla bla bla bla bla bla bla bla bla
+                                    bla bla bla bla bla bla bla bla bla
+                                    bla bla bla bla bla bla bla bla bla
+                                    bla bla bla bla bla bla bla bla bla
+                                    bla bla bla bla bla bla bla bla bla
+                                    bla bla bla bla bla bla bla bla bla
+                                    bla
+                                </div>
+                            </div>
+                            <img src="images/projects/pacman.jpg" class="img-responsive" alt="">
+                        </div>
+                        <div class="portfolio-caption">
+                            <h4>Atictendo</h4>
+                            <p class="text-muted">Retro-gaming simulator</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 portfolio-item mix student">
+                        <div class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    Bla bla bla bla bla bla bla bla bla
+                                    bla bla bla bla bla bla bla bla bla
+                                    bla bla bla bla bla bla bla bla bla
+                                    bla bla bla bla bla bla bla bla bla
+                                    bla bla bla bla bla bla bla bla bla
+                                    bla bla bla bla bla bla bla bla bla
+                                    bla
+                                </div>
+                            </div>
+                            <img src="images/projects/wei.png" class="img-responsive" alt="">
+                        </div>
+                        <div class="portfolio-caption">
+                            <h4>Man vs Wei</h4>
+                            <p class="text-muted">Week-end d'integration 2016 - ESIEA</p>
                         </div>
                     </div>
                 
@@ -487,29 +558,30 @@
            <div class="col-md-12">
                  
                <div class="row">
-                  <form>
+                  <form action="https://formspree.io/pierre.raby.pro@gmail.com"
+                        method="POST">
                     
 					  <div class="col-sm-6">
 						<div class="form-group">
-						  <input type="text" id="name" class="form-control" placeholder="Your name">
+						  <input type="text" id="name" class="form-control" placeholder="Your name" name="name">
 						 </div>
                         </div>
 								
                        <div class="col-sm-6">
 					    <div class="form-group">
-						 <input type="email" id="email" class="form-control" placeholder="Your email">
+						 <input type="email" id="email" class="form-control" placeholder="Your email" name="_replyto">
 						 </div>
                         </div>
 
                       <div class="col-sm-12">
                           <div class="form-group">
-                              <input type="text" id="subject" class="form-control" placeholder="Object">
+                              <input type="text" id="subject" class="form-control" placeholder="Object" name="object">
                           </div>
                       </div>
 								
                        <div class="col-sm-12">
 					    <div class="textarea-message form-group">
-					      <textarea id="message" class="textarea-message form-control" placeholder="Your message" rows="5"></textarea>
+					      <textarea id="message" class="textarea-message form-control" placeholder="Your message" rows="5" name="content"></textarea>
 						  </div>
                          </div>
                    
