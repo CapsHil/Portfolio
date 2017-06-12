@@ -110,7 +110,7 @@
 		
         $(window).load(function(){
         $(".typing").typed({
-            strings: ["I am in apprenticeship.", "I am a Java Developper.", "I am from ESIEA.", "I am a Software Architect."],    /* You can change the home section typing text from
+            strings: ["Je suis en apprentissage.", "Je suis développeur Java.", "Je suis à l'ESIEA.", "Je suis architecte logiciel."],    /* You can change the home section typing text from
 	                                                                                            here and do not use "&" use "and" */
             typeSpeed: 50
           });
